@@ -96,10 +96,11 @@ print(str_sl[-5:])
 print(str_sl[1:-2])  
 print(str_sl[::-1])  # 뒤집힘
 print(str_sl[::2])
-
+"""
 # 아스키 코드
 a = 'z'
 
 print(ord(a)) # 아스키 코드로
 print(chr(122)) # 문자로
-"""
+
+
