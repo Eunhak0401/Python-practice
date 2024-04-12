@@ -88,7 +88,14 @@ print(f"t center : {t:>10}")
 print(f"t center : {t:-^10}")
 """
 
-#
+#20도 해수면에서 수심 10m 마다 0.7씩 수온 하강하는 코드 짜보기
+depth = int(input("수심을 미터 단위로 입력하세요: "))
+sea_surface_temperature = 20
+temperature_grandient = 0.7
+sea_temperature = sea_surface_temperature - (depth / 10 * temperature_grandient)
+
+print("{depth}m 수심의 수온은 {sea temperature:.1f}""C 입니다.")
+
 
 
     
