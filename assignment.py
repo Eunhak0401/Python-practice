@@ -4,7 +4,7 @@
 
 import turtle 
 
-speed = int(input('주행 속도를 입력하시오: (0입력시 종료)')) #주행속도 입력
+speed = int(input('주행 속도를 입력하시오 (0입력시 종료):  ')) #주행속도 입력
 
 t = turtle.Pen() 
 
