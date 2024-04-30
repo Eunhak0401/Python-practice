@@ -43,7 +43,6 @@ while True:
             print(f' 첫 번째 수의 팩토리얼 값은 {factorial_x} 입니다.')
             print(f' 두 번쨰 수의 팩토리얼 값은 {factorial_y} 입니다.')
             
-            
     print(f'두 팩토리얼 값의 차(절대값은)는 {abs(factorial_x - factorial_y)} 입니다.')          
 
            
