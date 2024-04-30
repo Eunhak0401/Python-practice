@@ -20,6 +20,7 @@ while True:
         print("학번 ㅣ 이름")
         print('----------------')
         for i in range(len(studentNumber)):
-            print(studentNumber[i] | studentName[i])
+            print(studentNumber[i], "|", studentName[i])
+        print("=================")
             
 
