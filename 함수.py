@@ -45,4 +45,25 @@ num1 = int(input("첫 번째 숫자를 입력하시오: "))
 num2 = int(input("두 번째 숫자를 입력하시오: "))
 Operator = int(input("연산자를 선택하세요: "))
 calculator()
+
+#팩토리얼 함수
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+
+print(factorial(10))
 '''
+#파보나치 함수
+def Fibonacci(n):
+    if n <= 0:
+     return 0
+    elif n == 1:
+     return  1
+    else:
+     return Fibonacci(n - 1) + Fibonacci(n - 2)
+
+
+print(Fibonacci(10))
