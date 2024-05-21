@@ -17,7 +17,7 @@ def calculator():
 
 num = int(input('숫자를 입력하시오:'))
 calculator()
-'''
+
  #연산자 함수
 def add():
     print('덧셈결과:', num1 + num2)
@@ -45,3 +45,4 @@ num1 = int(input("첫 번째 숫자를 입력하시오: "))
 num2 = int(input("두 번째 숫자를 입력하시오: "))
 Operator = int(input("연산자를 선택하세요: "))
 calculator()
+'''
